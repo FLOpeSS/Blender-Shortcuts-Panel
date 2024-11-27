@@ -47,7 +47,7 @@ class ShortcutsPanel2(bpy.types.Panel):
             "object.edge_ring", "object.edge_loop",
             "object.grow_selection", "object.shrink_selection"
         ]
-        for operator in operators:
+        # for operator in operators:
             row = layout.row()
             row.operator(operator)
 
